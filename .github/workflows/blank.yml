@@ -36,11 +36,12 @@ jobs:
       uses: carlosperate/download-file-action@v1.0.3
       with: 
         # URL of the file to download
-        file-url: 'https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py'
+        # file-url: 'https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py'
+        file-url: 'https://github.com/srinivasaprasad-a/SampleD3JS/blob/master/README.md' 
         # New filename to rename the downloaded file
         file-name: 'test_file.py'
         # Path to download the file
-        # location: # optional, default is .
+        location: './files/'
 
     - name: Push new files back to master.
       uses: mikeal/publish-to-github-action@1.0.0
