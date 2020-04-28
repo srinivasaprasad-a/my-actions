@@ -39,7 +39,7 @@ jobs:
         # file-url: 'https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py'
         file-url: 'https://github.com/srinivasaprasad-a/SampleD3JS/blob/master/README.md' 
         # New filename to rename the downloaded file
-        file-name: 'test_file.py'
+        file-name: 'README.md'
         # Path to download the file
         location: './files/'
 
