@@ -41,3 +41,7 @@ jobs:
         file-name: 'test_file.py'
         # Path to download the file
         # location: # optional, default is .
+
+    - name: Push new files back to master.
+      uses: mikeal/publish-to-github-action@1.0.0
+      
