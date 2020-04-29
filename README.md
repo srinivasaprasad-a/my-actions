@@ -1,3 +1,3 @@
 # my-actions
 
-Testing blank actions
+Testing blank actions - in short
